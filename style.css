@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+}
+
+/* ===== NAVBAR ===== */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: pink;
+    color: white;
+    padding: 15px 30px;
+}
+
+.nav-kiri {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-kanan {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-kanan li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-kanan li a:hover {
+    text-decoration: underline;
+}
+
+/* ===== HOME SECTION ===== */
+.home {
+    background-color: pink;
+    color: white;
+    display: flex;
+    flex-direction: row;           /* teks di kiri, foto di kanan */
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 60px 80px 60px;
+    min-height: 400px;
+}
+
+.home-kiri {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 50%;
+}
+
+.home-kiri h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.home-kiri p {
+    font-size: 16px;
+    color: white;
+    line-height: 1.6;
+}
+
+.home-kanan {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.home-kanan img {
+    width: 260px;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* ===== ABOUT SECTION ===== */
+.about {
+    background-color: pink;
+    color: white;
+    text-align: center;
+    padding: 50px 30px 60px 30px;
+}
+
+.about h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* ===== TOMBOL SOSIAL ===== */
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 28px;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: transparent;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: pink;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #f48fb1;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
